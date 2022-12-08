@@ -2,7 +2,9 @@
 
 In this project, we aimmed at buidling an automatic detection system that can classify people wearing masks correctly, people wearing masks but wrongly and people not wearing masks. We got the motivation from the outbreak of COVID-19 starting in Spring 2020. 
 
-##Structure
+You could check Mask_detection_Report.pdf for a comprehensive report of this project.
+
+## Structure
 
 The whole project is made up of five jupyter notebooks. Including:
 

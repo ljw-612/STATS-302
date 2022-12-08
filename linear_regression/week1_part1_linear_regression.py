@@ -90,7 +90,7 @@ def gradient_descent(x_train, x_test, y_train, y_test, num_data, num_iter=50, al
     return theta_list, MSE_values_train, MSE_values_test, MAE_values_train, MAE_values_test
 
 def run(num_iter, alpha, train_test_proportion):
-    x_train, x_test, y_train, y_test, num_data = load_data(data_file='boston_house_prices-rev-norm.csv',
+    x_train, x_test, y_train, y_test, num_data = load_data(data_file=u'linear_regression/boston_house_prices-rev-norm.csv',
                                                            train_test_proportion=train_test_proportion)
     theta_list, MSE_values_train, MSE_values_test, MAE_values_train, MAE_values_test = gradient_descent(x_train, x_test, y_train, y_test,
                                                            num_data=num_data, num_iter=num_iter, alpha=alpha)
